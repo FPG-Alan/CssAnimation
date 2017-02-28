@@ -8,6 +8,7 @@ export default class CssAni{
         this.complete = _complete;
         this.state = 'start';
         this._init();
+        
     }
     _init(){
         let tmpTargetObj = {};
